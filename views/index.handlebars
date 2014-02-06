@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Idiomatic</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="/css/idiomatic.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>Idiomatic</h1>
+            <p>The most effective idiom learning application on the interwebs!</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h3 class="text-center">Login</h3>
+                <form action="">
+                    <input type="radio" name="type" value="return" checked>Return user
+                    <input type="radio" name="type" value="new">New user
+                    <br>
+                    <div class="form-group">
+                        <h4>Username</h4>
+                        <input type="text" class="form-control" placeholder="Username"><br>
+                        <h4>Password</h4>
+                        <input type="text" class="form-control" placeholder="Password">
+                    </div>
+                    <a href="/home" class="btn btn-success">Submit</a>
+                </form>
+            </div>
+
+            <div class="col-md-2">
+                <div class="text-center"><h1>- OR -</h1></div>
+            </div>
+
+            <div class="col-md-5">
+                <h3 class="text-center">Select a language</h3>
+                <b>Play idiomatic as guest user!</b>
+                <h4>Language</h4>
+                <select class="form-control">
+                    <option value="english">English</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="korean">Korean</option>
+                </select>
+                <h4>Idiom set</h4>
+                <select class="form-control">
+                    <option>Default</option>
+                    <option>Business</option>
+                    <option>Science</option>
+                </select>
+                <br>
+                <a href="/question" class="btn btn-success">Go!</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-4">&copy; 2014</div>
+            <div class="col-md-4">
+                <ul class="nav nav-pills">
+                    <li><a href="/about-us">About Us</a></li>
+                    <li><a href="/priv-pol">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </footer>
+
+    <script src="/js/jquery-1.11.0.js"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>
